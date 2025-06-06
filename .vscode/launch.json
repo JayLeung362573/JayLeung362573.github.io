@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/jiawei/Documents/Documents - Jiawei’s MacBook Pro/SchoolDocuments/CMPT 276 parsa rajabi/JayLeung362573.github.io",
+      "program": "/Users/jiawei/Documents/Documents - Jiawei’s MacBook Pro/SchoolDocuments/CMPT 276 parsa rajabi/JayLeung362573.github.io/build/Debug/outDebug"
+    }
+  ]
+}
