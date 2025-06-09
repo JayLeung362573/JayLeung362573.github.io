@@ -3,3 +3,153 @@ body{
     background: pink;
     text-align: center;
 }
+
+.sidenav {
+    background-color: white;
+    color: #333;
+    border-bottom-right-radius: 25px;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: absolute;
+    top: 1px;
+    width: 150px;
+}
+
+.main {
+    margin-top: 2%;
+    margin-left: 29%;
+    font-size: 28px;
+    padding: 0 10px;
+    width: 58%;
+}
+
+.main h2 {
+    color: #333;
+    font-family: 'Segoe UI', 'Times New Roman', Times, serif, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.main .card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px 0 20px 50px;
+}
+
+.main .card table {
+    border: none;
+    font-size: 16px;
+    height: 270px;
+    width: 80%;
+}
+
+.navibar-head {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0px 4px 8px 0px grey;
+    padding: 0 32px;
+    margin-bottom: 24px;
+    height: 56px;
+    display: flex;                  
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navibar-head .title h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.navibar-head .title {
+    flex: 1;
+    text-align: center;
+}
+
+.navibar-head ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navibar-head ul li {
+    margin-left: 0;
+}
+
+.navibar-head ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.navibar-head ul li a:hover {
+    color: #e74c3c;
+}
+
+.navibar-head .title h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+
+.social-icons {
+    text-align: center;
+    width: 90%;
+}
+
+.social-icons .card {
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: 1px 1px 8px 0 grey;
+    height: auto;
+    margin-bottom: 20px;
+    /* padding: 15px 15px px; */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* optional: center them horizontally */
+    align-items: center;     /* optional: align vertically */
+    gap: 16px;               /* control spacing between icons */
+}
+
+.social-icons a,
+.social-icons a:visited {
+    color: #444; /* or any color you prefer */
+    text-decoration: none; /* removes underline */
+}
+
+
+.social-icons a:hover .fa-facebook-f {
+    color: #1877f3; /* Facebook blue */
+}
+
+.social-icons a:hover .fa-github{
+    color: black;
+}
+
+.social-icons a:hover .fa-linkedin-in{
+    color: blue;
+}
+
+.social-icons a:hover .fa-twitter{
+    color: blue;
+}
+
+footer {
+    color: #333;
+    font-family: 'Segoe UI', 'Times New Roman', Times, serif, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
