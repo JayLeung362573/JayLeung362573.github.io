@@ -17,6 +17,24 @@ body{
     width: 150px;
 }
 
+.sidenav-url1 .url a,
+.sidenav-url2 .url a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #222;
+    text-decoration: none;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+
+/* Highlight effect when hovering */
+.sidenav-url1 .url a:hover,
+.sidenav-url2 .url a:hover {
+    background: #ffe0b2;
+    color: #c76b00;
+}
+
 .main {
     margin-top: 2%;
     margin-left: 29%;
