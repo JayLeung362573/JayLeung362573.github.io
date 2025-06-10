@@ -221,3 +221,39 @@ footer {
 .project-info a:hover {
     color: #c76b00;
 }
+
+
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+input {
+  width: 90%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+button {
+  padding: 8px 20px;
+  border-radius: 6px;
+  background: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #1565c0;
+}
