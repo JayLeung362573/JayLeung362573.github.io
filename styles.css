@@ -164,6 +164,27 @@ body{
     color: blue;
 }
 
+.social-icons a:hover .fa-telegram-plane{
+    color: blue;
+}
+
+.social-icons a:hover .fa-snapchat-ghost{
+    color: yellow;
+}
+
+.social-icons a:hover .fa-whatsapp{
+    color: green;
+}
+
+.social-icons a:hover .fa-instagram {
+    background: linear-gradient(45deg, #f9ce34, #ee2a7b 40%, #6228d7 80%, #fed373 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+
 footer {
     color: #333;
     font-family: 'Segoe UI', 'Times New Roman', Times, serif, Geneva, Verdana, sans-serif;
