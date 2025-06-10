@@ -171,3 +171,53 @@ footer {
     margin-bottom: 10px;
     text-align: center;
 }
+
+
+
+
+.projects-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px 0 #bbb;
+    padding: 20px;
+}
+
+.project-media {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(30,30,60,0.09);
+}
+
+.project-info {
+    flex: 1;
+}
+
+.project-info h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #1976d2;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.project-info a:hover {
+    color: #c76b00;
+}
